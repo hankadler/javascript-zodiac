@@ -1,0 +1,33 @@
+.comp * {
+  /*border: 1px solid gainsboro;*/
+  padding: .25em 0 .25em 0;
+}
+
+.resultParagraph {
+  display: grid;
+  grid-template-columns: 6em 8em;
+  grid-gap: 0.25em;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  font-family: "Noto Sans Mono", monospace;
+  text-align: center;
+}
+
+.resultLabel {
+  text-align: right;
+}
+
+.resultSpan {
+  padding-bottom: .43em;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5em;
+  --animate-duration: 2s;
+}
+
+.resultImg {
+  transition: transform 1s ease;
+
+  /* Use for tests */
+  /*transform: rotate(-135deg);*/
+}

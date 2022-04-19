@@ -1,0 +1,16 @@
+# Excludes all files from staging.
+*
+
+# Includes the specified files for staging.
+!.eslintrc.js
+!.gitignore
+!clips/
+!clips/*
+!public/
+!public/*
+!src/
+!src/**
+!index.js
+!package.json
+!package-lock.json
+!README.md

@@ -1,0 +1,42 @@
+.comp {
+  margin: 0 auto 0 auto;
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  justify-items: center;
+}
+
+.comp * {
+  z-index: 1;
+  /*border-bottom: 1px solid gainsboro;*/
+}
+
+.comp h1 {
+  margin-bottom: .5em;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2em;
+}
+
+.comp fieldset {
+  border: none;
+  display: grid;
+  grid-template-columns: 6em 8em;
+  grid-gap: .25em;
+  margin-bottom: 1em;
+}
+
+.comp label {
+  font-family: "Noto Sans Mono", monospace;
+  text-align: right;
+}
+
+.comp input, .comp select, .comp select option {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.comp button {
+  margin-bottom: .5em;
+  padding: .25em;
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: bold;
+}

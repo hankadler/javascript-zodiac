@@ -1,0 +1,13 @@
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  width: fit-content;
+}
+
+body * {
+  /*border: 1px solid gainsboro;*/
+  margin: 0;
+  padding: 0;
+}
+
+.comp {}
